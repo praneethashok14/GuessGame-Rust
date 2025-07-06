@@ -18,3 +18,12 @@ for local installation and
 ```sudo make install```
 
 for system wide installation.
+Then add the installation folder to your $PATH with
+
+```export PATH="$HOME/.local/bin:$PATH"```
+
+for user installation and
+
+```export PATH="usr/local/bin:$PATH"```
+
+for system installation.
